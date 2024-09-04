@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.boks {
+  margin: 2rem;
+  text-align: center;
+}
+
+button {
+  margin-top: 1rem;
+  outline: none;
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid black;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.bilde-container {
+  margin-top: 1rem;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.bilde-container img {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.bilde-container img.active {
+  display: block;
+}
